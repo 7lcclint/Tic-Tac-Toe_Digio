@@ -17,7 +17,6 @@ npx lerna run dev --parallel
 
 **Note**
 ```
-In Play vs Bot mode, if the website is lagging or running slow,
-adjust the depthLimit value in Main.jsx, line 129 (increasing the number makes the bot smarter
+In Play vs Bot mode, if the website is lagging or running slow, adjust the depthLimit value in Main.jsx, line 129 (increasing the number makes the bot smarter
 *does not affect playing against a bot on a 3x3 grid).
 ```
