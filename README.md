@@ -1,4 +1,4 @@
-Setup Projects
+**Setup Projects**
 
 1. install all dependencies
 ```
