@@ -13,6 +13,7 @@ command and sample data (no need to insert actual data) are in a file named game
 4. run web and api-gateway in parallel
 ```
 npx lerna run dev --parallel
+```
 
 **Note**
 ```
