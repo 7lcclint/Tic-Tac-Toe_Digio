@@ -1,3 +1,8 @@
-For start project
-1. open command line type 'yarn'
-2. type 'npx lerna run dev --parallel'
+1. install all dependencies
+```
+yarn
+```
+
+2. run web and api-gateway in parallel
+```
+npx lerna run dev --parallel
