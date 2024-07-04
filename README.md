@@ -1,4 +1,4 @@
-[![วิดีโอตัวอย่าง](https://img.youtube.com/vi/G_4P9ih92hg/0.jpg)](https://youtu.be/G_4P9ih92hg)
+[![วิดีโอตัวอย่าง](https://github.com/7lcclint/Tic-Tac-Toe_Digio/blob/main/tictactoe.png)](https://youtu.be/G_4P9ih92hg)
 
 **การติดตั้งโปรเจค**
 
