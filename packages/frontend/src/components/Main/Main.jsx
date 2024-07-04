@@ -37,6 +37,7 @@ const Main = () => {
 
     setPlayerXName(xName);
     setPlayerOName(oName);
+    setScores({ xScore: 0, oScore: 0 });
     setGameStarted(true);
   };
 
@@ -227,6 +228,7 @@ const Main = () => {
     }
     setPlayerXName(playerName);
     setPlayerOName("AI");
+    setScores({ xScore: 0, oScore: 0 });
     setXPlaying(true);
     setGameStarted(true);
     setSquare(Array(gridSize * gridSize).fill(null));
@@ -419,7 +421,8 @@ const Main = () => {
         newSquare[move.position] = move.player;
         setReplaySquare(newSquare);
         setReplayIndex(replayIndex + 1);
-      }, (selectedGame.grid_size > 3 ? 0 : 1000));
+      },( selectedGame.grid_size > 3 ? 0 : 1000)
+    );
 
       return () => clearTimeout(timer);
     }
