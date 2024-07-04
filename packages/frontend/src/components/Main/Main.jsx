@@ -126,7 +126,7 @@ const Main = () => {
   const findBestMove = (currentSquare) => {
     let bestScore = -Infinity;
     let bestMove;
-    const depthLimit = 10;
+    const depthLimit = 5;
 
     for (let i = 0; i < currentSquare.length; i++) {
       if (currentSquare[i] === null) {
@@ -419,7 +419,7 @@ const Main = () => {
         newSquare[move.position] = move.player;
         setReplaySquare(newSquare);
         setReplayIndex(replayIndex + 1);
-      }, 1000);
+      }, (selectedGame.grid_size > 3 ? 0 : 1000);
 
       return () => clearTimeout(timer);
     }
