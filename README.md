@@ -1,3 +1,5 @@
+[![วิดีโอตัวอย่าง](https://img.youtube.com/vi/G_4P9ih92hg/0.jpg)](https://youtu.be/G_4P9ih92hg)
+
 **การติดตั้งโปรเจค**
 
 1. คำสั่งติดตั้ง dependencies ทั้งหมด
