@@ -1,3 +1,5 @@
+**ตัวอย่างการใช้งาน**
+
 [![วิดีโอตัวอย่าง](https://github.com/7lcclint/Tic-Tac-Toe_Digio/blob/main/tictactoe.png)](https://youtu.be/G_4P9ih92hg)
 
 **การติดตั้งโปรเจค**
