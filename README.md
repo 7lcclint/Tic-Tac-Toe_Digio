@@ -32,6 +32,9 @@ Database  : Mysql
 
 Algorithm Bot : Minimax
 Monorepo management tool : lerna
+
+NodeJS version : 20.14.0
+yarn version : 1.22.22
 ```
 
 **Setup Projects**
