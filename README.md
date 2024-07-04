@@ -21,6 +21,16 @@ npx lerna run dev --parallel
 note: บอทเก่งขึ้นตามตัวเลขที่ปรับ ไม่มีผลกับการเล่นกับบอทในขนาดตาราง 3x3
 ```
 
+**Detail**
+```
+Stack ที่ใช้พัฒนา
+Front-end : ReactJS with Vite
+Back-end  : NodeJS express.js
+Database  : Mysql
+
+Algorithm Bot : Minimax
+Monorepo management tool : lerna
+```
 
 **Setup Projects**
 
