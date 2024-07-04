@@ -10,18 +10,6 @@ app.use(cors());
 
 app.get('/', (req, res) => res.send('Hello Tic-Tac-Toe!'));
 
-app.get('/users', (req, res) => {
-  const sql = 'SELECT * FROM users';
-  db.query(sql, (error, results) => {
-    if (error) {
-      console.error('An error occurred while executing the query:', error);
-      res.status(500).send('An error occurred');
-      return;
-    }
-    res.json(results);
-  });
-});
-
 app.post('/save-game', (req, res) => {
   const { playerXName, playerOName, startTime, endTime, gridSize, winner, moves } = req.body;
 
